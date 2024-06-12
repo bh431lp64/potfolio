@@ -213,7 +213,50 @@ footer {
     
 }
 
-@media (max-width: 760px){
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .experience-grid {
+        flex-direction: column;
+    }
+
+    .experience-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .container img, .container2 img {
+        height: auto;
+        width: 100%;
+        margin-right: 0;
+        float: none;
+    }
+
+    .container, .container2 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .experience-card h3 {
+        font-size: 1.2em;
+    }
+
+    .experience-card p {
+        font-size: 1em;
+    }
+
+    .btn {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}@media (max-width: 760px){
 
         .body {
             max-width: 400px;
