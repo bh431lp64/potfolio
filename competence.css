@@ -198,6 +198,10 @@ footer {
         align-items: center;
         flex-direction: column;
     }
+    .container img {
+        width: 80%;
+        margin: 0 auto 20px;
+    }
 
 
 
