@@ -180,21 +180,23 @@ footer {
     nav ul {
         flex-direction: column;
         margin-bottom: 10px;
+        align-items: center;
     }
 
     nav ul li {
-        margin: 5px 0;
+        margin: 10px 0;
     }
 
-    .container {
-        padding: 20px;
-    }
-
-    .container img {
+    .container img, .container2 img {
         height: auto;
         width: 100%;
         margin-right: 0;
-        margin-bottom: 20px;
+        float: none;
+    }
+
+    .container, .container2 {
+        height: auto;
+        padding: 20px;
     }
     .project-card {
         flex: 1 1 100%;
@@ -216,8 +218,9 @@ footer {
         font-size: 1em;
     }
 
-    .container {
-        padding: 10px;
+    .container, .container2 {
+        height: auto;
+        padding: 20px;
     }
 
     .project-card h3 {
