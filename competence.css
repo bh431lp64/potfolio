@@ -194,9 +194,9 @@ footer {
 
     .experience-card {
         flex: 1 1 100%;
-        max-width: 100%;
-        max-width: 90%;
+        max-width:90%;
         margin-bottom: 20px; 
+        padding: 10%;
     }
 
     .container img, .container2 img {
