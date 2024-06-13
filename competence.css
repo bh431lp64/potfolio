@@ -188,7 +188,7 @@ footer {
 
     .project-grid {
         flex-direction: column;
-        
+
     }
 
     .experience-card {
@@ -208,11 +208,11 @@ footer {
         padding: 20px;
     }
 
-    .project-card h3 {
+    .project-card h2 {
         font-size: 1.2em;
     }
 
-    .eproject-card p {
+    .project-card p {
         font-size: 1em;
     }
 
