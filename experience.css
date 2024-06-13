@@ -256,37 +256,4 @@ footer {
         font-size: 1em;
         padding: 10px 20px;
     }
-}
-@media (max-width: 760px){
-
-    body {
-        max-width: 400px;
-    }
-    .experience-card{
-        max-width: 60%;
-        width: 1000px;
-
-    }
-    .experience-grid {
-        flex-direction: column;
-        align-items: flex-start;
-        width: 800px;
-        margin-left: 40px;
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
-    ul  {
-        margin: 0 10px;
-        align-items: center;
-        flex-direction: column;
-    }
-    .container img {
-        width: 80%;
-        margin: 0 auto 20px;
-    }
-
-
-
-
-
-}
+}   
